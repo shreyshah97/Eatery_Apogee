@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:5:5-42:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Shrey\.android\build-cache\39d72714b5f7257d92c66c62e062b7c2d8efd10b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shrey\.android\build-cache\8749c0f3713c10a55581c9a95e45867f6d3d7950\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\a7f10c82a54afcd4ed8331fda58a6d0ecf432d6c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\9de281b4d50cf0abc59eb7cc95968048871dede5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shrey\.android\build-cache\0afcef3609676130dee89d7def843084b5c09876\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shrey\.android\build-cache\20b5c173672e0c9da116ad9f1123bd2e82f93e55\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shrey\.android\build-cache\7f731a1e4125e30fe9e2f3e18865b610e9fafbdd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shrey\.android\build-cache\b7e3d98c482feaa285368d3885a66525d6517b27\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shrey\.android\build-cache\625dc3cc6c09fb88c78ea44d2cddf91094ac9933\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shrey\.android\build-cache\55f7fcd21e1d3f21e27cdcdfca8745d2536c0bf6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shrey\.android\build-cache\03cb568585c4d1a9cb958a9120811f61b0c3bc5f\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:12:9-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:7:9-44
+	android:roundIcon
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:11:9-52
+	android:allowBackup
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:8:9-47
+	android:largeHeap
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:10:9-33
+	android:theme
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.shrey.lesvoyageurs.MainActivity
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:screenOrientation
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:16:13-49
+	android:theme
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.shrey.lesvoyageurs.Velas_Beach
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:24:19-46
+activity#com.example.shrey.lesvoyageurs.Home
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:25:9-42
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:25:19-39
+activity#com.example.shrey.lesvoyageurs.Exit
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:26:9-42
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:26:19-39
+activity#com.example.shrey.lesvoyageurs.About_us
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:27:9-46
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:27:19-43
+activity#com.example.shrey.lesvoyageurs.Contact_us
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:28:19-45
+activity#com.example.shrey.lesvoyageurs.Sojha
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:29:9-43
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:29:19-40
+activity#com.example.shrey.lesvoyageurs.Chopta
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:30:19-41
+activity#com.example.shrey.lesvoyageurs.Vof
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:31:9-41
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:31:19-38
+activity#com.example.shrey.lesvoyageurs.TirthanValley
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:32:9-51
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:32:19-48
+activity#com.example.shrey.lesvoyageurs.SarPass
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:33:9-45
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:33:19-42
+activity#com.example.shrey.lesvoyageurs.MtDeo
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:34:9-43
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:34:19-40
+activity#com.example.shrey.lesvoyageurs.Kabini
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:35:19-41
+activity#com.example.shrey.lesvoyageurs.Dandeli
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:36:9-45
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:36:19-42
+activity#com.example.shrey.lesvoyageurs.Chikmangalur
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:37:9-50
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:37:19-47
+activity#com.example.shrey.lesvoyageurs.Main2Activity
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:38:9-40:59
+	android:theme
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:39:13-42
+activity#com.example.shrey.lesvoyageurs.GalleryActivity
+ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:41:9-62
+	android:name
+		ADDED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml:41:19-50
+uses-sdk
+INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Shrey\.android\build-cache\39d72714b5f7257d92c66c62e062b7c2d8efd10b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\Shrey\.android\build-cache\00ee0227aadb19da16c8666afbaf7bcb7edecd79\output\AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shrey\.android\build-cache\8749c0f3713c10a55581c9a95e45867f6d3d7950\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\a7f10c82a54afcd4ed8331fda58a6d0ecf432d6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\9de281b4d50cf0abc59eb7cc95968048871dede5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shrey\.android\build-cache\ea108626713742f7f9669d1299911cfd4526401f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shrey\.android\build-cache\0afcef3609676130dee89d7def843084b5c09876\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shrey\.android\build-cache\20b5c173672e0c9da116ad9f1123bd2e82f93e55\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shrey\.android\build-cache\7f731a1e4125e30fe9e2f3e18865b610e9fafbdd\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shrey\.android\build-cache\b7e3d98c482feaa285368d3885a66525d6517b27\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shrey\.android\build-cache\625dc3cc6c09fb88c78ea44d2cddf91094ac9933\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shrey\.android\build-cache\55f7fcd21e1d3f21e27cdcdfca8745d2536c0bf6\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shrey\.android\build-cache\03cb568585c4d1a9cb958a9120811f61b0c3bc5f\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shrey\AndroidStudioProjects\LesVoyageurs\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shrey\.android\build-cache\8749c0f3713c10a55581c9a95e45867f6d3d7950\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\a7f10c82a54afcd4ed8331fda58a6d0ecf432d6c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shrey\.android\build-cache\9de281b4d50cf0abc59eb7cc95968048871dede5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shrey\.android\build-cache\ea108626713742f7f9669d1299911cfd4526401f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shrey\.android\build-cache\0afcef3609676130dee89d7def843084b5c09876\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shrey\.android\build-cache\20b5c173672e0c9da116ad9f1123bd2e82f93e55\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shrey\.android\build-cache\7f731a1e4125e30fe9e2f3e18865b610e9fafbdd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shrey\.android\build-cache\b7e3d98c482feaa285368d3885a66525d6517b27\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shrey\.android\build-cache\625dc3cc6c09fb88c78ea44d2cddf91094ac9933\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shrey\.android\build-cache\55f7fcd21e1d3f21e27cdcdfca8745d2536c0bf6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shrey\.android\build-cache\03cb568585c4d1a9cb958a9120811f61b0c3bc5f\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shrey\.android\build-cache\d111a6b7b7802a37312067407cffabe676e39d3e\output\AndroidManifest.xml:26:9-47

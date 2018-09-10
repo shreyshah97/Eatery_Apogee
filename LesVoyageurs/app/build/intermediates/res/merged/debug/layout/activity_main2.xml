@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity">
+
+        <RelativeLayout
+            android:id="@+id/RL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A1887F"
+            tools:context="com.example.shrey.lesvoyageurs.MainActivity">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/les_voyageurs" />
+
+                    <LinearLayout
+                        android:id="@+id/chopta"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/ImageView1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/chopta1"
+                            android:clickable="true"
+                            android:onClick="Chopta" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Chopta"
+                            android:text="Chopta"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Chopta" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/velas_beach"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/chopta"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/vb1"
+                            android:clickable="true"
+                            android:onClick="VelasBeach" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="VelasBeach"
+                            android:text="Velas Beach"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="VelasBeach" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shojha"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/velas_beach"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/sojha1"
+                            android:clickable="true"
+                            android:onClick="Shojha" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Shojha"
+                            android:text="Shojha"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Shojha" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/vof"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/shojha"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/vof1"
+                            android:clickable="true"
+                            android:onClick="Vof" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Vof"
+                            android:text="Valley of Flowers"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Vof" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/vof"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/sp1"
+                            android:clickable="true"
+                            android:onClick="SarPass" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="SarPass"
+                            android:text="Sar Pass"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="SarPass" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM6"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/tv1"
+                            android:clickable="true"
+                            android:onClick="TirthanValley" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="TirthanValley"
+                            android:text="Tirthan Valley"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="TirthanValley" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mtd"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/tv"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM7"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/mtd1"
+                            android:clickable="true"
+                            android:onClick="MtDeo" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="MtDeo"
+                            android:text="Mt. Deo Tibba"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="MtDeo" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/kabini"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/mtd"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM8"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/kabini1"
+                            android:clickable="true"
+                            android:onClick="Kabini" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Kabini"
+                            android:text="Kabini Wildlife Sanctuary"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Kabini" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dandeli"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/kabini"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM9"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/dandeli1"
+                            android:clickable="true"
+                            android:onClick="Dandeli" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Dandeli"
+                            android:text="Dandeli"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Dandeli" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chikmangalur"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/dandeli"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/IM10"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/chik1"
+                            android:clickable="true"
+                            android:onClick="Chikmangalur" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:onClick="Chikmangalur"
+                            android:text="Chikmangalur"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/right_arrow_key"
+                            android:clickable="true"
+                            android:onClick="Chikmangalur" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#A1887F"
+            app:itemTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:itemTextColor="@android:color/white"
+            app:menu="@menu/nav_items" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"/>
+
+</FrameLayout>

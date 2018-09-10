@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shrey.lesvoyageurs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/les_voyageurs"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/les_voyageurs"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.shrey.lesvoyageurs.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.shrey.lesvoyageurs.Velas_Beach" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Home" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Exit" />
+        <activity android:name="com.example.shrey.lesvoyageurs.About_us" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Contact_us" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Sojha" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Chopta" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Vof" />
+        <activity android:name="com.example.shrey.lesvoyageurs.TirthanValley" />
+        <activity android:name="com.example.shrey.lesvoyageurs.SarPass" />
+        <activity android:name="com.example.shrey.lesvoyageurs.MtDeo" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Kabini" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Dandeli" />
+        <activity android:name="com.example.shrey.lesvoyageurs.Chikmangalur" />
+        <activity
+            android:name="com.example.shrey.lesvoyageurs.Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.shrey.lesvoyageurs.GalleryActivity" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.shrey.lesvoyageurs.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

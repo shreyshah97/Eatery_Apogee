@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_selected_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_selected_focused_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_unselected_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Shrey\\AndroidStudioProjects\\LesVoyageurs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "C:\\Users\\Shrey\\.android\\build-cache\\00ee0227aadb19da16c8666afbaf7bcb7edecd79\\output\\res\\drawable-mdpi\\vpi__tab_unselected_pressed_holo.9.png"
+    }
+]
